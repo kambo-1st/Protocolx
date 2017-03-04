@@ -1,0 +1,26 @@
+test_collection:
+  -
+    doc: '{"_id": 1001, "foo": "bar"}'
+  -
+    doc: '{"_id": 1002, "foo": "bar"}'
+  -
+    doc: '{"_id": 1003, "baz": "qux"}'
+  -
+    doc: '{"_id": 1004, "baz": "qux"}'
+  -
+    doc: '{"_id": 1005, "foo": "bar", "baz": "qux"}'
+  -
+    doc: '{"_id": 1006, "foo": "bar", "baz": "qux"}'
+  -
+    doc: '{"_id": 1007, "answer": 42}'
+  -
+    doc: '{"_id": 1008, "answer": 84}'
+  -
+    doc: '{"_id": 1009, "foo": "bar", "answer": 42}'
+  -
+    doc: '{"_id": 1010, "foo": "bar", "answer": 84}'
+  -
+    doc: '{"_id": 1011, "foo": {"bar":{"baz":{"qux":{"answer": 42}}}}}'
+  -
+    doc: '{"_id": 1012, "foo": "barbar", "answer": 84}'
+update_table:
